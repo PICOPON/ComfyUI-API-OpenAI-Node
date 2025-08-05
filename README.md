@@ -3,14 +3,14 @@
 [![中文](https://img.shields.io/badge/lang-中文-red.svg)](./README.md)
 
 # 项目标题
-一个自定义的ComfyUI节点，集成了OpenAI兼容的API，用于本地或云端部署的大模型API服务调用，用于绘画提示词生成和增强，专为Stable Diffusion，FLux等模型工作流程设计。
+一个自定义的ComfyUI节点，集成了OpenAI兼容的API，用于本地或云端部署的大模型API服务（Ollama、LM Studio,Vllm, Mindie等）调用，用于绘画提示词生成和增强，专为Stable Diffusion，FLux等模型工作流程设计。
 
 ![微信截图_20250805130100](https://github.com/user-attachments/assets/48f8de78-fde4-4c5f-ba73-b239c3b11432)
 ## 功能特性
 
 - 🤖 **OpenAI兼容API集成**：支持任何OpenAI兼容的API端点
 - 🎨 **Stable Diffusion提示词增强**：自动扩展和改进提示词以获得更好的图像生成效果
-- 🧠 **DeepSeek R1支持**：预配置了DeepSeek-R1-Distill-Qwen-32B-910A模型
+- 🧠 **DeepSeek R1支持**：预配置了DeepSeek-R1-Distill-Qwen-32B模型
 - 🧹 **清洁输出**：自动移除响应中的思考标签（`<think>`块）
 - ⚙️ **灵活配置**：可自定义模型、温度、令牌数和API设置
 
@@ -78,14 +78,14 @@ You are a prompt generation AI. your task is to take a user input for a stable d
 此节点支持：
 - ✅ OpenAI API
 - ✅ DeepSeek API
-- ✅ 本地LLM服务器（Ollama、LM Studio等）
+- ✅ 本地LLM服务器（Ollama、LM Studio,Vllm, Mindie等）
 - ✅ 任何OpenAI兼容的端点
 
 ## 配置示例
 
 ### 本地服务器（Ollama）
-- **API URL**：`http://localhost:11434/v1`
-- **模型**：`llama2`或任何已安装的模型
+- **API URL**：`http://localhost:1935/v1`
+- **模型**：`DeepSeek-R1-Distill-Qwen-32B`或任何已安装的模型
 - **API密钥**：保持为"123"或留空
 
 ### DeepSeek API
