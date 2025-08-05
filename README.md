@@ -1,8 +1,5 @@
-## 🌐 语言选择 / Language Selection
-
-- [🇨🇳 中文版](./README.md)
-- [🇺🇸 English](./README_EN.md)
 # ComfyUI OpenAI 接口服务调用的自定义节点
+#### 🌐 语言选择 / Language Selection
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](./README_EN.md)
 [![中文](https://img.shields.io/badge/lang-中文-red.svg)](./README.md)
 
