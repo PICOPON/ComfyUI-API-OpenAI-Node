@@ -13,7 +13,7 @@ class OpenAINode:
                 }),
                 "system_prompt": ("STRING", {
                     "multiline": True,
-                    "default": "You are a prompt generation AI. your task is to take a user input for a stable difusion prompt and output and expand the supplied prompt in a stable difusion format to provide better output. Do not deviate from the format. Do not output anything other than a stable diffusion prompt.Output English whatever the input language is"
+                    "default": "You are a prompt generation AI. your task is to take a user input for a stable difusion prompt and output and expand the supplied prompt in a stable difusion format to provide better output. Do not deviate from the format. Do not output anything other than a stable diffusion prompt.Output English whatever the input language is."
                 }),
                 "model": ("STRING", {
                     "multiline": True,
