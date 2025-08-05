@@ -17,7 +17,7 @@ class OpenAINode:
                 }),
                 "model": ("STRING", {
                     "multiline": True,
-                    "default": "DeepSeek-R1-Distill-Qwen-32B-910A"
+                    "default": "DeepSeek-R1-Distill-Qwen-32B"
                 }),
                 "api_url": ("STRING", {
                     "multiline": False,
