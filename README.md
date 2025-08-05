@@ -66,6 +66,9 @@ You are a prompt generation AI. your task is to take a user input for a stable d
 ```
 文本输入 → OpenAI节点 → 文本处理 → 图像生成
 ```
+### 参考流程文件AI_generated_Flux_flow.json
+![微信截图_20250805130100](https://github.com/user-attachments/assets/48f8de78-fde4-4c5f-ba73-b239c3b11432)
+![微信截图_20250805131154](https://github.com/user-attachments/assets/e5e4f036-388b-42d3-91af-e2496cd2e545)
 
 ## API兼容性
 
