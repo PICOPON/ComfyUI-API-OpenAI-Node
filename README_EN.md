@@ -20,7 +20,7 @@ A custom ComfyUI node that integrates OpenAI-compatible APIs for prompt generati
 
 2. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/comfyui-openai-node.git
+   git clone https://github.com/PICOPON/ComfyUI-API-OpenAI-Node.git
    ```
 
 3. Install required dependencies:
@@ -79,9 +79,9 @@ This node works with:
 
 ## Configuration Examples
 
-### Local Server (Ollama)
-- **API URL**: `http://localhost:11434/v1`
-- **Model**: `llama2` or any installed model
+### Local Server (Ollama, vllm, mindie .etc.)
+- **API URL**: `http://localhost:1935/v1`
+- **Model**: `DeepSeek-R1-Distill-Qwen-32B` or any installed model
 - **API Key**: Leave as "123" or empty
 
 ### DeepSeek API
