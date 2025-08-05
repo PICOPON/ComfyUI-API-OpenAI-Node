@@ -73,6 +73,8 @@ You are a prompt generation AI. your task is to take a user input for a stable d
 ```
 ### 参考流程文件AI_generated_Flux_flow.json
 ![微信截图_20250805131154](https://github.com/user-attachments/assets/e5e4f036-388b-42d3-91af-e2496cd2e545)
+<img width="1912" height="962" alt="image" src="https://github.com/user-attachments/assets/c26761ca-4493-40e8-bf47-c5800f6913f0" />
+
 
 ## API兼容性
 
