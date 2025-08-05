@@ -4,7 +4,7 @@
 [![中文](https://img.shields.io/badge/lang-中文-red.svg)](./README.md)
 
 # 项目标题
-一个自定义的ComfyUI节点，集成了OpenAI兼容的API，用于本地或云端部署的大模型API服务（Ollama、LM Studio,Vllm, Mindie等）调用，用于绘画提示词生成和增强，专为Stable Diffusion，FLux等模型工作流程设计。
+一个自定义的ComfyUI节点，集成了OpenAI兼容的API，用于本地或云端部署的大模型API服务（Ollama、LM Studio,Vllm, Mindie等）调用，用于绘画提示词生成和增强，专为Stable Diffusion，FLux等模型工作流程设计。支持中文输入
 
 ![微信截图_20250805130100](https://github.com/user-attachments/assets/48f8de78-fde4-4c5f-ba73-b239c3b11432)
 ## 功能特性
