@@ -57,7 +57,7 @@
 节点预配置了针对Stable Diffusion优化的系统提示词：
 
 ```
-You are a prompt generation AI. your task is to take a user input for a stable difusion prompt and output and expand the supplied prompt in a stable difusion format to provide better output. Do not deviate from the format. Do not output anything other than a stable diffusion prompt.
+You are a prompt generation AI. your task is to take a user input for a stable difusion prompt and output and expand the supplied prompt in a stable difusion format to provide better output. Do not deviate from the format. Do not output anything other than a stable diffusion prompt.Output English whatever the input language is.
 ```
 *（您是一个提示词生成AI。您的任务是接收用户输入的stable diffusion提示词，并输出扩展后的stable diffusion格式提示词以提供更好的输出。不要偏离格式。除了stable diffusion提示词之外不要输出任何其他内容。）*
 
@@ -71,7 +71,7 @@ You are a prompt generation AI. your task is to take a user input for a stable d
 ```
 文本输入 → OpenAI节点 → 文本处理 → 图像生成
 ```
-### 参考流程文件AI_generated_Flux_flow.json
+### 参考流程文件AI_generated_Flux_flow.json （支持中文输入）
 ![微信截图_20250805131154](https://github.com/user-attachments/assets/e5e4f036-388b-42d3-91af-e2496cd2e545)
 <img width="1912" height="962" alt="image" src="https://github.com/user-attachments/assets/c26761ca-4493-40e8-bf47-c5800f6913f0" />
 
