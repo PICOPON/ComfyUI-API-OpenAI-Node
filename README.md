@@ -1,4 +1,4 @@
-# ComfyUI OpenAI 节点
+# ComfyUI OpenAI 接口服务调用的自定义节点
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](./README_EN.md)
 [![中文](https://img.shields.io/badge/lang-中文-red.svg)](./README.md)
 
